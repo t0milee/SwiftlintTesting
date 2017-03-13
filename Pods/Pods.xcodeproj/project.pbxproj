@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB628D2752FD049A4E825C338855D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2BCAED72C8D862C3110E2AA27C7E252D /* Pods-SwiftlintTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43913E2C4731A59F32E3DB680CBCA3D7 /* Pods-SwiftlintTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A56261C227CADAF000D33E556E09D6 /* Pods-SwiftlintTestingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A0992A98B246BAD501DD945AE8F5D /* Pods-SwiftlintTestingTests-dummy.m */; };
+		5730BD534055BFC56FCA177D6B79E65C /* Pods-SwiftlintTestingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6CAC84DC263AC8DB075F886AA90110 /* Pods-SwiftlintTestingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8804293052D9716E6489B78687421A72 /* Pods-SwiftlintTestingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B185791AFDC233D1E25FC57A1E83421A /* Pods-SwiftlintTestingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88B7DDB5CEBE709FC23167E6D821332F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		982240D1D933006A0105C2D570252C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BAA43413B447C0405D1E592FD08992AF /* Pods-SwiftlintTestingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2979B0A904E1D4F69552E38AD7DF86 /* Pods-SwiftlintTestingUITests-dummy.m */; };
+		EA51033763B111243DEC982DE6F8F32D /* Pods-SwiftlintTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BAE01FD39AB28BC96367D3ED80A2CD /* Pods-SwiftlintTesting-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08B9A7D7E8A59E2CE498C85C6EFA762C /* Pods-SwiftlintTestingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftlintTestingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C680C3CC08789E47892662A2D19923D /* Pods_SwiftlintTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftlintTesting.framework; path = "Pods-SwiftlintTesting.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		135E6C2DB47B72D66AA5D637AB29F6E8 /* Pods-SwiftlintTestingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftlintTestingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		135FB3A8B8A44BA7D46F693FF1FF80BF /* Pods-SwiftlintTestingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftlintTestingTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F756A8BE299DCEE3B40B3713DA77B60 /* Pods_SwiftlintTestingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftlintTestingTests.framework; path = "Pods-SwiftlintTestingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		233FCF31ACCC137A2C60EC053C5ED476 /* Pods-SwiftlintTestingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftlintTestingTests-resources.sh"; sourceTree = "<group>"; };
+		2BC368F6F6E2D23D9FC42D15E567EAB8 /* Pods-SwiftlintTesting-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftlintTesting-resources.sh"; sourceTree = "<group>"; };
+		31BC1F888A87196195AF285203F5E309 /* Pods-SwiftlintTesting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftlintTesting-frameworks.sh"; sourceTree = "<group>"; };
+		34CD1E0BEFECAB35279BC7DC51BC1B22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43913E2C4731A59F32E3DB680CBCA3D7 /* Pods-SwiftlintTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftlintTesting-umbrella.h"; sourceTree = "<group>"; };
+		504CEDB31E98C02BB89F864A2153C8FD /* Pods-SwiftlintTestingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftlintTestingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CBC18757BCAD3A799904DBF575F44A8 /* Pods-SwiftlintTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftlintTesting.release.xcconfig"; sourceTree = "<group>"; };
+		6E1524611A94316B2D0431BF4C9C011C /* Pods-SwiftlintTestingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftlintTestingUITests.modulemap"; sourceTree = "<group>"; };
+		6E305DDCA3AD1DAE5CBA0268FEC18D79 /* Pods-SwiftlintTestingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftlintTestingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F4FBD10A0E46AC01AA32CCE6E99D487 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D5A0992A98B246BAD501DD945AE8F5D /* Pods-SwiftlintTestingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftlintTestingTests-dummy.m"; sourceTree = "<group>"; };
+		87BAE01FD39AB28BC96367D3ED80A2CD /* Pods-SwiftlintTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftlintTesting-dummy.m"; sourceTree = "<group>"; };
+		8B2B9B27771E400E05FDF9E7E09E1474 /* Pods-SwiftlintTestingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftlintTestingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		929903877F0B23FCF13D27B74FB927C2 /* Pods-SwiftlintTestingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftlintTestingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F940515A5D8508AD050E84CFD773C8B /* Pods-SwiftlintTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftlintTesting.modulemap"; sourceTree = "<group>"; };
+		B185791AFDC233D1E25FC57A1E83421A /* Pods-SwiftlintTestingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftlintTestingTests-umbrella.h"; sourceTree = "<group>"; };
+		B4F0542B8660312A48CAA70649848DA0 /* Pods-SwiftlintTestingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftlintTestingUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C5C8E48D18A518A4B7C1A90682147C90 /* Pods-SwiftlintTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftlintTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE812CC0CC56AC9E884A5633B2B05A1F /* Pods-SwiftlintTestingUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftlintTestingUITests-resources.sh"; sourceTree = "<group>"; };
+		D7D498352D348F8492D8DD0E093C5ED3 /* Pods-SwiftlintTestingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftlintTestingTests.modulemap"; sourceTree = "<group>"; };
+		DBCECE56309CB9A8F1B508CA37B5572A /* Pods-SwiftlintTesting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftlintTesting-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD2979B0A904E1D4F69552E38AD7DF86 /* Pods-SwiftlintTestingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftlintTestingUITests-dummy.m"; sourceTree = "<group>"; };
+		DE44916DD461147BC7029EAF230E9E69 /* Pods-SwiftlintTestingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftlintTestingTests-frameworks.sh"; sourceTree = "<group>"; };
+		E98E747EF02C32241C47F63E46E8A584 /* Pods-SwiftlintTestingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftlintTestingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7582214B7070958335ADCE74167D74D /* Pods_SwiftlintTestingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftlintTestingUITests.framework; path = "Pods-SwiftlintTestingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ABB82CB666E309409E9AF347570630 /* Pods-SwiftlintTesting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftlintTesting-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD6CAC84DC263AC8DB075F886AA90110 /* Pods-SwiftlintTestingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftlintTestingUITests-umbrella.h"; sourceTree = "<group>"; };
+		FE1AB7F1AB26C4933169A422E67FD7BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FE010293F43DC4B66F83453EC195A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB628D2752FD049A4E825C338855D4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2A0D6F1A8AA31FF60A116BD892338D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982240D1D933006A0105C2D570252C77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED697AC211541133907536819EEAD931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B7DDB5CEBE709FC23167E6D821332F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD4F4C24976B6152A8C6BB724A9E053 /* Pods-SwiftlintTestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34CD1E0BEFECAB35279BC7DC51BC1B22 /* Info.plist */,
+				6E1524611A94316B2D0431BF4C9C011C /* Pods-SwiftlintTestingUITests.modulemap */,
+				8B2B9B27771E400E05FDF9E7E09E1474 /* Pods-SwiftlintTestingUITests-acknowledgements.markdown */,
+				6E305DDCA3AD1DAE5CBA0268FEC18D79 /* Pods-SwiftlintTestingUITests-acknowledgements.plist */,
+				DD2979B0A904E1D4F69552E38AD7DF86 /* Pods-SwiftlintTestingUITests-dummy.m */,
+				B4F0542B8660312A48CAA70649848DA0 /* Pods-SwiftlintTestingUITests-frameworks.sh */,
+				CE812CC0CC56AC9E884A5633B2B05A1F /* Pods-SwiftlintTestingUITests-resources.sh */,
+				FD6CAC84DC263AC8DB075F886AA90110 /* Pods-SwiftlintTestingUITests-umbrella.h */,
+				E98E747EF02C32241C47F63E46E8A584 /* Pods-SwiftlintTestingUITests.debug.xcconfig */,
+				135E6C2DB47B72D66AA5D637AB29F6E8 /* Pods-SwiftlintTestingUITests.release.xcconfig */,
+			);
+			name = "Pods-SwiftlintTestingUITests";
+			path = "Target Support Files/Pods-SwiftlintTestingUITests";
+			sourceTree = "<group>";
+		};
+		32A23E08346748F1793F899C5FF672C1 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		5B6936AB8F785E00D85D297B72B70C42 /* Pods-SwiftlintTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1AB7F1AB26C4933169A422E67FD7BA /* Info.plist */,
+				D7D498352D348F8492D8DD0E093C5ED3 /* Pods-SwiftlintTestingTests.modulemap */,
+				929903877F0B23FCF13D27B74FB927C2 /* Pods-SwiftlintTestingTests-acknowledgements.markdown */,
+				08B9A7D7E8A59E2CE498C85C6EFA762C /* Pods-SwiftlintTestingTests-acknowledgements.plist */,
+				7D5A0992A98B246BAD501DD945AE8F5D /* Pods-SwiftlintTestingTests-dummy.m */,
+				DE44916DD461147BC7029EAF230E9E69 /* Pods-SwiftlintTestingTests-frameworks.sh */,
+				233FCF31ACCC137A2C60EC053C5ED476 /* Pods-SwiftlintTestingTests-resources.sh */,
+				B185791AFDC233D1E25FC57A1E83421A /* Pods-SwiftlintTestingTests-umbrella.h */,
+				504CEDB31E98C02BB89F864A2153C8FD /* Pods-SwiftlintTestingTests.debug.xcconfig */,
+				135FB3A8B8A44BA7D46F693FF1FF80BF /* Pods-SwiftlintTestingTests.release.xcconfig */,
+			);
+			name = "Pods-SwiftlintTestingTests";
+			path = "Target Support Files/Pods-SwiftlintTestingTests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BA34FCCB3012B1E3B325602685BC16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C680C3CC08789E47892662A2D19923D /* Pods_SwiftlintTesting.framework */,
+				1F756A8BE299DCEE3B40B3713DA77B60 /* Pods_SwiftlintTestingTests.framework */,
+				F7582214B7070958335ADCE74167D74D /* Pods_SwiftlintTestingUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9758CC519AE2C57A9659FFC01AAD26F9 /* Pods */,
+				7BA34FCCB3012B1E3B325602685BC16A /* Products */,
+				E71054FE1232C9D209E31735F430E06E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9758CC519AE2C57A9659FFC01AAD26F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32A23E08346748F1793F899C5FF672C1 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71054FE1232C9D209E31735F430E06E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC04AB115B07CA75601C30C1D0031F1 /* Pods-SwiftlintTesting */,
+				5B6936AB8F785E00D85D297B72B70C42 /* Pods-SwiftlintTestingTests */,
+				2CD4F4C24976B6152A8C6BB724A9E053 /* Pods-SwiftlintTestingUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EDC04AB115B07CA75601C30C1D0031F1 /* Pods-SwiftlintTesting */ = {
+			isa = PBXGroup;
+			children = (
+				6F4FBD10A0E46AC01AA32CCE6E99D487 /* Info.plist */,
+				9F940515A5D8508AD050E84CFD773C8B /* Pods-SwiftlintTesting.modulemap */,
+				F7ABB82CB666E309409E9AF347570630 /* Pods-SwiftlintTesting-acknowledgements.markdown */,
+				DBCECE56309CB9A8F1B508CA37B5572A /* Pods-SwiftlintTesting-acknowledgements.plist */,
+				87BAE01FD39AB28BC96367D3ED80A2CD /* Pods-SwiftlintTesting-dummy.m */,
+				31BC1F888A87196195AF285203F5E309 /* Pods-SwiftlintTesting-frameworks.sh */,
+				2BC368F6F6E2D23D9FC42D15E567EAB8 /* Pods-SwiftlintTesting-resources.sh */,
+				43913E2C4731A59F32E3DB680CBCA3D7 /* Pods-SwiftlintTesting-umbrella.h */,
+				C5C8E48D18A518A4B7C1A90682147C90 /* Pods-SwiftlintTesting.debug.xcconfig */,
+				6CBC18757BCAD3A799904DBF575F44A8 /* Pods-SwiftlintTesting.release.xcconfig */,
+			);
+			name = "Pods-SwiftlintTesting";
+			path = "Target Support Files/Pods-SwiftlintTesting";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40971ACF016ABBC407C427DDCE02AA04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCAED72C8D862C3110E2AA27C7E252D /* Pods-SwiftlintTesting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		975906103F90B0DE6A7F2896C1D3E6D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8804293052D9716E6489B78687421A72 /* Pods-SwiftlintTestingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC50FCDA54D604CDBD9917FFC1C7C935 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5730BD534055BFC56FCA177D6B79E65C /* Pods-SwiftlintTestingUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63B0A76DD8DE936AD4D489C71F269645 /* Pods-SwiftlintTestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8D7A06F1B93B7520470584F0B6A6B6 /* Build configuration list for PBXNativeTarget "Pods-SwiftlintTestingUITests" */;
+			buildPhases = (
+				977A5DC908682E4D6084DB1822EAB8CB /* Sources */,
+				CD2A0D6F1A8AA31FF60A116BD892338D /* Frameworks */,
+				AC50FCDA54D604CDBD9917FFC1C7C935 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftlintTestingUITests";
+			productName = "Pods-SwiftlintTestingUITests";
+			productReference = F7582214B7070958335ADCE74167D74D /* Pods_SwiftlintTestingUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E920BDDAB52043B1C1C004CBEB73BBF1 /* Pods-SwiftlintTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF511A781A6E8C97771AF2A0F948FAE9 /* Build configuration list for PBXNativeTarget "Pods-SwiftlintTestingTests" */;
+			buildPhases = (
+				A7480A488085086C8421B49B0AE78299 /* Sources */,
+				8FE010293F43DC4B66F83453EC195A53 /* Frameworks */,
+				975906103F90B0DE6A7F2896C1D3E6D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftlintTestingTests";
+			productName = "Pods-SwiftlintTestingTests";
+			productReference = 1F756A8BE299DCEE3B40B3713DA77B60 /* Pods_SwiftlintTestingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5CFEA42BA2DCE7F94782501F581F925 /* Pods-SwiftlintTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56750C55F912BA0D1EAA35DCA05A78FC /* Build configuration list for PBXNativeTarget "Pods-SwiftlintTesting" */;
+			buildPhases = (
+				5ECE0F1A8FBDF64FF969A5E76C4A0FF3 /* Sources */,
+				ED697AC211541133907536819EEAD931 /* Frameworks */,
+				40971ACF016ABBC407C427DDCE02AA04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftlintTesting";
+			productName = "Pods-SwiftlintTesting";
+			productReference = 0C680C3CC08789E47892662A2D19923D /* Pods_SwiftlintTesting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7BA34FCCB3012B1E3B325602685BC16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CFEA42BA2DCE7F94782501F581F925 /* Pods-SwiftlintTesting */,
+				E920BDDAB52043B1C1C004CBEB73BBF1 /* Pods-SwiftlintTestingTests */,
+				63B0A76DD8DE936AD4D489C71F269645 /* Pods-SwiftlintTestingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ECE0F1A8FBDF64FF969A5E76C4A0FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA51033763B111243DEC982DE6F8F32D /* Pods-SwiftlintTesting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977A5DC908682E4D6084DB1822EAB8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA43413B447C0405D1E592FD08992AF /* Pods-SwiftlintTestingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7480A488085086C8421B49B0AE78299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A56261C227CADAF000D33E556E09D6 /* Pods-SwiftlintTestingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E809A2883060BDCF0EE6840A667D321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135FB3A8B8A44BA7D46F693FF1FF80BF /* Pods-SwiftlintTestingTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftlintTestingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftlintTestingTests/Pods-SwiftlintTestingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftlintTestingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B71BA088C58A85ACEFC7A25F8A63723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E98E747EF02C32241C47F63E46E8A584 /* Pods-SwiftlintTestingUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftlintTestingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftlintTestingUITests/Pods-SwiftlintTestingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftlintTestingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B8271D83E3FDF0959B87EF5A944A649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C8E48D18A518A4B7C1A90682147C90 /* Pods-SwiftlintTesting.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftlintTesting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftlintTesting/Pods-SwiftlintTesting.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftlintTesting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82B2712F2253EFF1C83527AB3310F836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CBC18757BCAD3A799904DBF575F44A8 /* Pods-SwiftlintTesting.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftlintTesting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftlintTesting/Pods-SwiftlintTesting.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftlintTesting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF339AE68E28B34716603A9BADF1F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135E6C2DB47B72D66AA5D637AB29F6E8 /* Pods-SwiftlintTestingUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftlintTestingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftlintTestingUITests/Pods-SwiftlintTestingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftlintTestingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE82FA4E4982522C08553FF3579F5796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504CEDB31E98C02BB89F864A2153C8FD /* Pods-SwiftlintTestingTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftlintTestingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftlintTestingTests/Pods-SwiftlintTestingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftlintTestingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8D7A06F1B93B7520470584F0B6A6B6 /* Build configuration list for PBXNativeTarget "Pods-SwiftlintTestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B71BA088C58A85ACEFC7A25F8A63723 /* Debug */,
+				DDF339AE68E28B34716603A9BADF1F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56750C55F912BA0D1EAA35DCA05A78FC /* Build configuration list for PBXNativeTarget "Pods-SwiftlintTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8271D83E3FDF0959B87EF5A944A649 /* Debug */,
+				82B2712F2253EFF1C83527AB3310F836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF511A781A6E8C97771AF2A0F948FAE9 /* Build configuration list for PBXNativeTarget "Pods-SwiftlintTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE82FA4E4982522C08553FF3579F5796 /* Debug */,
+				1E809A2883060BDCF0EE6840A667D321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_SwiftlintTestingUITests {
+  umbrella header "Pods-SwiftlintTestingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
