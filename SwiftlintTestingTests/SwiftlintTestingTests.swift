@@ -24,12 +24,19 @@ class SwiftlintTestingTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        for i in 0 ..< 10 {
+            for j in 0 ..< 10 {
+                let c = i * j
+                XCTAssert(c == i * j)
+            }
+        }
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
+            _ = 2000 * 2000
         }
     }
     
